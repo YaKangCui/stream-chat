@@ -1,8 +1,26 @@
-# 流式 AI 对话平台（Streaming AI Chat）
+<div align="center">
 
-一个**可配置供应商、可配置技能**的全栈 AI 对话应用：流式渲染、断线重连、工具调用 Agent、RAG 知识库、多模态（看图/生图/搜图）、语音、模型网关中间层。前端纯手写，后端是一层零依赖的 OpenAI 兼容代理。
+# 🤖 流式 AI 对话平台 · Streaming AI Chat
 
-> 接入任意 OpenAI 兼容大模型（智谱 / DeepSeek / 通义千问 / Ollama / Groq …），界面上点选即可切换，无需改代码。
+**一个独立开发的全栈 AI 对话应用** — 流式输出 · 断线重连 · 工具调用 Agent · RAG 知识库 · 图文语音多模态 · 模型网关中间层
+
+前端纯手写，后端是一层零依赖的 OpenAI 兼容代理；接入任意大模型（智谱 / DeepSeek / 通义千问 / Ollama / Groq …），**界面上点选即可切换，无需改代码**。
+
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white)
+![Node](https://img.shields.io/badge/Node-20-339933?logo=node.js&logoColor=white)
+![Vitest](https://img.shields.io/badge/tested%20with-Vitest-6da55f?logo=vitest&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-ready-2496ed?logo=docker&logoColor=white)
+
+<br />
+
+<!-- 📸 截图占位：录好截图/GIF 后，把下面这行的 src 换成 docs/screenshot.png 即可 -->
+<img src="docs/screenshot.gif" alt="演示截图占位" width="820" />
+
+<sub>👉 录一段「对话 + 工具调用 + 切换供应商」的 GIF，放到 <code>docs/screenshot.png</code>，再把上面 <code>src</code> 指过去</sub>
+
+</div>
 
 ---
 
