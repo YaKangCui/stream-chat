@@ -112,9 +112,3 @@ src/
 ## 🛠 技术栈
 
 React 19 · TypeScript · Vite · @tanstack/react-virtual · react-markdown · idb · i18next · axios · lossless-json · Vitest · Node(http) · Docker
-
----
-
-## 💬 简历一句话
-
-> 独立开发可配置的全栈 AI 对话平台：自研流式传输层（断线重连/去重/续传）、注册式工具调用 Agent 与技能面板、RAG 知识库、多模态（图文/语音）、模型网关中间层（运行时切换供应商），并完成虚拟滚动/代码分割等性能优化、单测与 Docker 部署。
