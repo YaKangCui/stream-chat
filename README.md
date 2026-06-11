@@ -18,7 +18,7 @@
 <!-- 📸 截图占位：录好截图/GIF 后，把下面这行的 src 换成 docs/screenshot.png 即可 -->
 <img src="docs/screenshot.gif" alt="演示截图占位" width="820" />
 
-<sub>👉 录一段「对话 + 工具调用 + 切换供应商」的 GIF，放到 <code>docs/screenshot.png</code>，再把上面 <code>src</code> 指过去</sub>
+<!-- <sub>👉 录一段「对话 + 工具调用 + 切换供应商」的 GIF，放到 <code>docs/screenshot.png</code>，再把上面 <code>src</code> 指过去</sub> -->
 
 </div>
 
