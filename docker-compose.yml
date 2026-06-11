@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8787:8787"
+    environment:
+      # 在同目录 .env 里填 LLM_API_KEY，compose 会自动注入
+      - LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_MODEL=glm-4-flash
+      - LLM_VISION_MODEL=glm-4v-flash
+      - LLM_IMAGE_MODEL=cogview-3-flash
+    restart: unless-stopped
